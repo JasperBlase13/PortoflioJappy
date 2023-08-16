@@ -28,7 +28,7 @@ body
 {
     width: 100%;
     background-attachment: scroll, local;
-    background-image: url(../assets.bg/5356163.jpg);
+    background-image: url("../assets.bg/5356163.jpg");
     font-family: 'Lato', sans-serif;
     background-attachment: fixed;
     background-position: center;
