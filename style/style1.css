@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+/*Reset*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*End Reset*/
+
+
+
+/*Main Body Config*/
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+img
+{
+    display: block;
+}
+
+body
+{
+    width: 100%;
+    background-image: url(/assets.bg/5356163.jpg);
+    font-family: 'Lato', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+
+   
+  
+}
+
+a:visited
+{
+    color: navy;
+}
+
+a:hover
+{
+    color: gray;
+}
+
+a:active
+{
+    color: black
+}
+
+.button
+{
+  background-color: navy; /* Green */
+  border: 2px solid navy;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+/*Heading Content*/
+.headingtitle
+{  
+    text-align: center;  
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+
+.navbar
+{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px;
+}
+.list1
+{
+   display: inline-block;
+   margin: 0px 50px
+}
+
+
+
+
+
+/* Main content */
+.main2
+{
+    padding: 15px;
+}
+
+.container
+{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.25rem;
+    margin-bottom: 90px;
+
+}
+
+.container .box
+{
+    padding: 20px;
+   
+    
+}
+.boxcontent1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxcontent1input
+{
+    display: flex;
+    gap: 2rem;
+}
+
+.heading1
+{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.boxcontent2 img
+{
+    width: 25%;
+    border-radius: 100%;
+    margin: 10px auto;
+}
+
+.container2
+{
+    background-color: white;
+    max-width: 75%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 45px;
+}
+
+.boxcontent3
+{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    line-height: 2rem;
+}
+
+
+.boxcontent4
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    
+
+}
+
+
+.boxxx
+{
+    
+   padding: 10px;
+ 
+}
+
+.boxxx h2
+{
+  text-align: center;
+}
+
+.box4lists
+{
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 2.5rem
+}
+
+
+.container3
+{
+    background-color: white;
+    max-width: 75%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 45px;
+}
+
+.boxcontent5
+{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.skillsbox
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.skillsbox hr
+
+{
+    border: 1px solid black;
+}
+
+.skillbox
+{
+  border: 2px solid black;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.arduinoicon
+{
+    margin: 0.25rem auto;
+    margin-top: 0.9rem;
+  
+    
+}
+.JAVAFXimg
+{
+    width: 45%;
+}
+
+.skillsflex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container4
+{
+    background-color: white;
+    max-width: 75%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+}
+
+.container4 hr
+{
+    border: 1px solid black;
+    margin: 10px 0px
+}
+
+.boxcontent6
+{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.projectboxes
+{
+   display: grid;
+   grid-template-columns: repeat(1, 2fr);
+   grid-auto-rows: auto;
+
+}
+
+.projectbox
+{
+    border: 2px solid black;
+}
+
+.projectbox1
+{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.RiceUpText
+{
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.RiceUplists
+{
+    list-style-position: inside;
+    line-height: 2rem;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul
+{
+    margin: 0.25rem 1rem 1rem;
+}
+
+.RiceUpImg img
+{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.RiceUPbox
+{
+    
+    margin: 5px auto;
+}
+
+
+
+.projectbox2
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.JavaLibraryImg img
+{
+   width: 80%;
+   margin: 10px auto;
+}
+
+.JavaLibraryText
+{
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.JavaLibraryText ul
+{
+    list-style-position: inside;
+    line-height: 2rem;
+}
+
+.foot
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+
+@media (max-width: 700px)
+{
+    body{
+        background-attachment: scroll, local;
+    }
+
+   .list1
+   {
+    font-size: 1rem;
+    margin: 0px 30px
+   }
+   .heading1
+   {
+    font-size: 1.40rem;
+
+    
+   }
+    .boxcontent1 p 
+    {
+        font-size: 0.80rem
+    }
+
+    .boxcontent2 img
+    {
+        width: 40%;
+    }
+
+
+    .skillsbox, .projectboxes, .projectbox1, .projectbox2
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .container2, .container3, .container4{
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .boxxx h2
+
+    {
+        text-align: left;
+    }
+    .box4lists
+    {
+       margin-left: 0px;
+     
+    }
+
+
+
+
+    
+}
+
+
+@media (max-width: 450px)
+{
+    body{
+        background-attachment: scroll, local;
+    }
+    .list1
+    {
+     font-size: 0.84rem;
+     margin: 0px 20px
+    }
+
+    .boxcontent2 img
+    {
+        width: 60%;
+    }
+
+
+    
+   .boxcontent4
+    {
+     grid-template-columns: repeat(1, 1fr);
+    }
+
+    .heading2
+    {
+        display: block;
+    }
+    .heading1
+    {
+        text-align: center;
+    }
+
+}   
+
+
+@media (max-width: 325px)
+{
+
+    body{
+        background-attachment: scroll, local;
+    }
+    .boxcontent2 img
+    {
+        width: 80%;
+    }
+
+    .list1
+    {
+     font-size: 0.75rem;
+     margin: 0px 15px
+    }
+  
+    .boxcontent1 p 
+    {
+        font-size: 0.60rem
+    }
+
+}   
