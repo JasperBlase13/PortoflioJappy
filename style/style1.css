@@ -359,14 +359,7 @@ ol ul
 
 @media (max-width: 700px)
 {
-    body{
-        background-attachment: scroll, local;
-        background-image: url(.../assets.bg/5356163.jpg);
-        font-family: 'Lato', sans-serif;
-        background-attachment: fixed;
-        background-position: center;
-    }
-
+ 
    .list1
    {
     font-size: 1rem;
@@ -419,13 +412,7 @@ ol ul
 
 @media (max-width: 450px)
 {
-    body{
-        background-attachment: scroll, local;
-        background-image: url(.../assets.bg/5356163.jpg);
-        font-family: 'Lato', sans-serif;
-        background-attachment: fixed;
-        background-position: center;
-    }
+ 
     .list1
     {
      font-size: 0.84rem;
@@ -459,13 +446,7 @@ ol ul
 @media (max-width: 325px)
 {
 
-    body{
-        background-attachment: scroll, local;
-        background-image: url(.../assets.bg/5356163.jpg);
-        font-family: 'Lato', sans-serif;
-        background-attachment: fixed;
-        background-position: center;
-    }
+
     .boxcontent2 img
     {
         width: 80%;
