@@ -1,6 +1,6 @@
 function firstBuild()
 {
-    alert("First Build. May subject to change \n \n \nJappy :)");
+    alert("First Build. May subject to change \nJappy :)");
 
 }
 
