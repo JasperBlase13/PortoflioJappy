@@ -14,7 +14,7 @@ if(input1){
     {
        let password = prompt("Enter the password");
        password = password.trim().toLowerCase();
-        if(password === "riabel")
+        if(password === "nomad")
         {
             alert("Welcome to your page");
             break;
