@@ -43,6 +43,6 @@ if(input1){
 
 else if(input1 === null)
 {
-    alert("You must enter either admin or student or close this tab if you don't want to see it \n-Jappy")
+    alert("You can just type the guest keyword so that you can see what's on my page. \n-Jappy")
     location.reload();
 }
