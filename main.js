@@ -1,5 +1,3 @@
-
-
 let input1 = prompt("Admin or Guest?")
 let proceed = false;
 console.log(input1);
