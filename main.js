@@ -1,3 +1,5 @@
+
+
 let input1 = prompt("Admin or Guest?")
 let proceed = false;
 console.log(input1);
@@ -12,7 +14,7 @@ if(input1){
     {
        let password = prompt("Enter the password");
        password = password.trim().toLowerCase();
-        if(password === "nomad")
+        if(password === "riabel")
         {
             alert("Welcome to your page");
             break;
@@ -43,6 +45,6 @@ if(input1){
 
 else if(input1 === null)
 {
-    alert("You can just type the guest keyword so that you can see what's on my page. \n-Jappy")
+    alert("You must enter either admin or student or close this tab if you don't want to see it \n-Jappy")
     location.reload();
 }
